@@ -1,0 +1,270 @@
+﻿@model RegisterViewModel
+<div class="tab-pane ml-auto mr-auto">
+    <form asp-route="Register" id="frmRegister" class="needs-validation" novalidate>
+        @Html.AntiForgeryToken()
+        <input type="hidden" asp-for="ReturnUrl" />
+        <div class="card card-login">
+            <div class="card-header">
+                <h4 class="card-title">User Registration</h4>
+            </div>
+            <div class="card-body ">
+                @Html.Partial("_ValidationSummary")
+                <h6 class="card-title"><span class="fa fa-bars"></span>Office details</h6>
+                <hr />
+                <div class="row">
+                    <div class="form-group col-md-6 mb-3 required">
+                        Fullname
+                        <input class="form-control" id="StaffName" required placeholder="Fullname (Surname First)" asp-for="staffInformation.StaffName" autofocus>
+                        <div class="invalid-feedback">
+                            Please provide full name.
+                        </div>
+                        @*<span asp-validation-for="staffInformation.StaffName" class="text-danger"></span>*@
+                    </div>
+                    <div class="form-group col-md-6 required">
+                        Staff No.
+                        <input class="form-control" id="StaffNo" required placeholder="Staff Number" asp-for="staffInformation.StaffNo" autofocus>
+                        <div class="invalid-feedback">
+                            Please provide a valid No.
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        Company
+                        <select id="ddlCompany" name="ddlCompany" class="custom-select browser-default">
+                            <option>Select Company...</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please choose your company.
+                        </div>
+                        @*style="width:495px"*@
+                    </div>
+                    <div class="form-group col-md-6">
+                        Branch
+                        <select id="ddlBranch" name="ddlBranch" class="form-control">
+                            <option>Select Branch...</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please provide branch.
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        Department
+                        <select id="ddlDept" name="ddlDept" class="form-control">
+                            <option>Select Department...</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please provide department.
+                        </div>
+
+                    </div>
+                    <div class="form-group col-md-6">
+                        Designation
+                        <select id="ddlMis" name="ddlMis" class="form-control">
+                            <option>Select Designation...</option>
+                        </select>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6 required">
+                        Job Title
+                        <input class="form-control" id="JobTitle" required placeholder="Job Title" asp-for="staffInformation.JobTitle" autofocus>
+                        @*<span asp-validation-for="staffInformation.JobTitle" class="text-danger"></span>*@
+                    </div>
+                    <div class="form-group col-md-6">
+                        Rank
+                        <select id="ddlRanks" name="ddlRanks" class="form-control">
+                            <option>Select Rank...</option>
+                        </select>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        Unit
+                        <select id="ddlUnit" name="ddlUnit" class="form-control">
+                            <option>Select Unit...</option>
+                        </select>
+
+                    </div>
+                    <div class="form-group col-md-6">
+                        MIS Code
+                        <select id="miscode" name="miscode" class="form-control" required>
+                            <option value="" selected hidden>Enter miscode ...</option>
+                        </select>
+                    </div>
+
+                </div>
+                <h6 class="card-title"><span class="fa fa-address-book"></span> Personal details</h6>
+                <hr />
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        Gender
+                        @Html.DropDownListFor(model => model.staffInformation.Gender, new SelectList(ViewBag.gender),
+"Select Gender", new { id = "ddlGender", @class = "form-control" })
+
+                    </div>
+                    <div class="form-group col-md-6" required>
+                        <div class="form-group required">
+                            Date of Birth
+                            <div class='input-group date'>
+                                <input type='text' id='Age' class="form-control" required placeholder="Date of Birth" asp-for="staffInformation.Age" autofocus>
+                                <span class="input-group-addon">
+                                    @*<span class="fa fa-calendar"></span>*@
+                                </span>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group col-md-6 required">
+                        Email
+                        <input class="form-control" id="Email" required placeholder="Email" type="email" email="true" asp-for="staffInformation.Email" autofocus>
+                        <div class="invalid-feedback">
+                            Please provide valid email.
+                        </div>
+                    </div>
+                    <div class="form-group col-md-6 required">
+                        Phone
+                        <input class="form-control" id="Phone" required placeholder="Office Phone" type="number" asp-for="staffInformation.Phone" autofocus>
+                        <div class="invalid-feedback">
+                            Please provide your phone number.
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6 required">
+                        Address
+                        @*<input class="form-control"  required id="Address" placeholder="Address" asp-for="staffInformation.Address" autofocus>*@
+                        <textarea rows="4" cols="80" id="Address" required class="form-control" asp-for="staffInformation.Address" autofocus placeholder="Here can be your description"></textarea>
+                    </div>
+                    <div class="form-group col-md-6">
+                        Country
+                        <select id="ddlCountry" name="ddlCountry" class="form-control">
+                            <option>Select Country...</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please provide country.
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        State/Region
+                        <select id="ddlState" name="ddlState" class="form-control">
+                            <option>Select State...</option>
+                        </select>
+
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        Signature
+                        <div class="file-loading">
+                            <input id="staffsignature" placeholder="Staff Signature" type="file" class="file" />
+                            <div class="invalid-feedback">
+                                Please upload signature.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h6 class="card-title"><span class="fa fa-angle-double-right"></span> Next of Kin details</h6>
+                <hr />
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        Next of Kin Name
+                        <input class="form-control" required id="NextOfKinName" placeholder="Next of Kin" asp-for="staffInformation.NextOfKinName" autofocus>
+                        <div class="invalid-feedback">
+                            Please provide next of kin name.
+                        </div>
+                    </div>
+                    <div class="form-group col-md-6">
+                        Next of Kin Gender
+                        @Html.DropDownListFor(model => model.staffInformation.NextOfKinGender, new SelectList(ViewBag.gender),
+"Select Gender", new { id = "ddlNextGender", @class = "form-control" })
+
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        Next of Kin Address
+                        <input class="form-control" required id="NextOfKinAddress" placeholder="Next of Kin Address">
+                        <div class="invalid-feedback">
+                            Please provide next address.
+                        </div>
+                    </div>
+                    <div class="form-group col-md-6">
+                        Next of Kin Email
+                        <input class="form-control" id="NextOfKinEmail" placeholder="Next of Kin Email">
+                        <div class="invalid-feedback">
+                            Please provide next email.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        Next of Kin Phone
+                        <input class="form-control" required id="NextOfKinPhone" placeholder="Next of Kin Phone" type="number" asp-for="staffInformation.NextOfKinPhone" autofocus>
+                        <div class="invalid-feedback">
+                            Please provide next phone.
+                        </div>
+                    </div>
+                    <div class="form-group col-md-6">
+                        Next of Kin Relationship
+                        <input class="form-control" id="RelationShip" placeholder="Next of Kin Relationship" asp-for="staffInformation.RelationShip" autofocus>
+
+                    </div>
+                </div>
+
+
+                <h6 class="card-title"><i class="fa fa-id-card"></i>Login details</h6>
+                <hr />
+                <div class="row">
+
+                    <div class="form-group col-md-12 required">
+                        Username
+                        <input class="form-control" id="Username" required placeholder="Username" asp-for="Username" autofocus>
+                        <div class="invalid-feedback">
+                            Please provide username.
+                        </div>
+                        <span asp-validation-for="Username" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6 required">
+                        Password  <span id="result"></span>
+                        <input type="password" id="password" class="form-control" placeholder="Password" required asp-for="Password" autocomplete="off">
+                        <div class="valid-feedback">
+                            Your Password should be in this format Password1$!
+                        </div>
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-6">
+                        Confirm Password
+                        <input type="password" required class="form-control" placeholder="ConfirmPassword" asp-for="ConfirmPassword" autocomplete="off">
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer text-right">
+                <button class="btn btn-danger" id="btnRegisters" name="submit" value="register">
+                    <i class="fa fa-user-circle"></i>
+                    Register
+                </button>
+            </div>
+        </div>
+
+    </form>
+</div>
+

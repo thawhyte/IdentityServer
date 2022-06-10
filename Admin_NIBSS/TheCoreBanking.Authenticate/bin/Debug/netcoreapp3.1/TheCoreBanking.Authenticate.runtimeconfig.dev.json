@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\olufemi.ademola\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\olufemi.ademola\\.nuget\\packages"
+    ]
+  }
+}

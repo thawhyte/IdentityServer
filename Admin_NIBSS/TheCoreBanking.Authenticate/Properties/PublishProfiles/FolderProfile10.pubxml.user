@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\NIBBSPLATFORM</_PublishTargetUrl>
+    <History>True|2022-01-05T15:04:34.2212123Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="TheCoreBanking">
+      <Value>Server=OLUFEMI-ADEMOLA\SQLEXPRESS%3bDatabase=TheCoreBankingAzure%3buser id=sa%3bpassword=sqluser10%24%3bMultipleActiveResultSets=True%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="TheCoreBanking.Authenticate.Data.ApplicationDbContext">
+      <Value>Server=OLUFEMI-ADEMOLA\SQLEXPRESS%3bDatabase=TheCoreBankingAzure%3buser id=sa%3bpassword=sqluser10%24%3bMultipleActiveResultSets=True%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

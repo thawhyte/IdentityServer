@@ -1,0 +1,1689 @@
+﻿++Solution 'TheCoreBanking.Authenticate' ‎(2 of 2 projects)
+i:{00000000-0000-0000-0000-000000000000}:TheCoreBanking.Authenticate.sln
+++TheCoreBanking.Authenticate.Data
+i:{00000000-0000-0000-0000-000000000000}:TheCoreBanking.Authenticate.Data
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\thecorebanking.authenticate.data.csproj
+++Dependencies
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:>1256
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>6997
+++Contracts
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\contracts\
+++Helpers
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\helpers\
+++Model
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\
+++Repository
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\repository\
+++AuthenticateUnitOfWork.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\authenticateunitofwork.cs
+++Analyzers
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:analyzers
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:analyzers
+++Frameworks
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:frameworks
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:frameworks
+++Packages
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:packages
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:packages
+++IAspNetModuleRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\contracts\iaspnetmodulerepository.cs
+++IAspNetSubModuleRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\contracts\iaspnetsubmodulerepository.cs
+++IAuthenticateUnitOfWork.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\contracts\iauthenticateunitofwork.cs
+++IBranchInformationRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\contracts\ibranchinformationrepository.cs
+++ICompanyInformationRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\contracts\icompanyinformationrepository.cs
+++IEODMSYProcessRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\contracts\ieodmsyprocessrepository.cs
+++IFinanceCurrentDateRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\contracts\ifinancecurrentdaterepository.cs
+++IFinanceTransactionRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\contracts\ifinancetransactionrepository.cs
+++IFinanceTransactionTypeRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\contracts\ifinancetransactiontyperepository.cs
+++IFinTrakHolsDateRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\contracts\ifintrakholsdaterepository.cs
+++IIndustryRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\contracts\iindustryrepository.cs
+++IMutuallyExclusiveRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\contracts\imutuallyexclusiverepository.cs
+++IRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\contracts\irepository.cs
+++ISectorRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\contracts\isectorrepository.cs
+++IValidateEODRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\contracts\ivalidateeodrepository.cs
+++IRepositoryProvider2.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\helpers\irepositoryprovider2.cs
+++PredicateBuilder.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\helpers\predicatebuilder.cs
+++RepositoryFactories2.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\helpers\repositoryfactories2.cs
+++RepositoryProvider2.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\helpers\repositoryprovider2.cs
+++AspNetUserRoles.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\aspnetuserroles.cs
+++EndofDayModel.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\endofdaymodel.cs
+++ListUserRoles.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\listuserroles.cs
+++StartDayModel.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\startdaymodel.cs
+++TblAspNetModuleRoles.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblaspnetmoduleroles.cs
+++TblAspNetSubModuleRoles.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblaspnetsubmoduleroles.cs
+++TblAutoLogOff.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblautologoff.cs
+++TblBankingApprovalTrack.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblbankingapprovaltrack.cs
+++TblBankingAuditTrail.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblbankingaudittrail.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\tblbankingaudittrail.cs
+++TblBankingCadeposit.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblbankingcadeposit.cs
+++TblBankingCawithdrawal.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblbankingcawithdrawal.cs
+++TblBankingLoanLease.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblbankingloanlease.cs
+++TblBranchInformation.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblbranchinformation.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\tblbranchinformation.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\modelview\tblbranchinformation.cs
+++TblCasa.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblcasa.cs
+++TblCompanyInformation.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblcompanyinformation.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\tblcompanyinformation.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\modelview\tblcompanyinformation.cs
+++TblCountry.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblcountry.cs
+++TblCurrency.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblcurrency.cs
+++TblCustomer.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblcustomer.cs
+++TblDepartment.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tbldepartment.cs
+++TblDesignation.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tbldesignation.cs
+++TblEodvalidation.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tbleodvalidation.cs
+++TblFinanceCurrentDate.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblfinancecurrentdate.cs
+++TblFinanceTransaction.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblfinancetransaction.cs
+++TblFinanceTransactionType.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblfinancetransactiontype.cs
+++TblFinTrakHolsDate.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblfintrakholsdate.cs
+++TblIndustry.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblindustry.cs
+++TblInformation.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblinformation.cs
+++TblMisinformation.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblmisinformation.cs
+++TblMoneyDealDetails.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblmoneydealdetails.cs
+++TblMoneyMarketDeals.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblmoneymarketdeals.cs
+++TblMoneyMaturedDealOperation.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblmoneymatureddealoperation.cs
+++TblMultipleAccountToCreditFundTransfer.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblmultipleaccounttocreditfundtransfer.cs
+++TblMutuallyExclusive.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblmutuallyexclusive.cs
+++TblRank.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblrank.cs
+++TblSector.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblsector.cs
+++TblSingleFundTransfer.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblsinglefundtransfer.cs
+++TblStaffInformation.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblstaffinformation.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\tblstaffinformation.cs
+++TblState.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblstate.cs
+++TblSubscriptions.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblsubscriptions.cs
+++TblUnit.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\tblunit.cs
+++TheCoreBankingAuthenticateContext.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\thecorebankingauthenticatecontext.cs
+++vwUsermanagement.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\model\vwusermanagement.cs
+++AspNetModuleRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\repository\aspnetmodulerepository.cs
+++AspNetSubModuleRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\repository\aspnetsubmodulerepository.cs
+++BranchInformationRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\repository\branchinformationrepository.cs
+++CompanyInformationRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\repository\companyinformationrepository.cs
+++EFRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\repository\efrepository.cs
+++EODMSYProcessRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\repository\eodmsyprocessrepository.cs
+++FinanceCurrentDateRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\repository\financecurrentdaterepository.cs
+++FinanceTransactionRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\repository\financetransactionrepository.cs
+++FinanceTransactionTypeRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\repository\financetransactiontyperepository.cs
+++FinTrakHolsDateRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\repository\fintrakholsdaterepository.cs
+++IndustryRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\repository\industryrepository.cs
+++MutuallyExclusiveRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\repository\mutuallyexclusiverepository.cs
+++SectorRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\repository\sectorrepository.cs
+++ValidateEODRepository.cs
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\repository\validateeodrepository.cs
+++Microsoft.CodeAnalysis.Analyzers
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\users\olufemi.ademola\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\users\olufemi.ademola\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\users\olufemi.ademola\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\users\olufemi.ademola\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\users\olufemi.ademola\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\users\olufemi.ademola\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.NETCore.App
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate.data\microsoft.netcore.app
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\microsoft.netcore.app
+++AutoMapper (6.2.2)
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:>7068
+++AutoMapper.Extensions.Microsoft.DependencyInjection (3.2.0)
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:>7060
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7019
+++IdentityServer4 (2.1.3)
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:>7075
+++IdentityServer4.AspNetIdentity (2.1.0)
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:>7062
+++IdentityServer4.EntityFramework (2.1.1)
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:>7063
+++Microsoft.AspNetCore.Mvc.Razor.Extensions (2.0.3)
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:>7074
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7051
+++Microsoft.AspNetCore.SignalR (1.1.0)
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:>7073
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7048
+++Microsoft.EntityFrameworkCore (3.1.0)
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:>7058
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7014
+++Microsoft.EntityFrameworkCore.Abstractions (3.1.0)
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:>7067
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7036
+++Microsoft.EntityFrameworkCore.Design (3.1.0)
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:>7061
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7021
+++Microsoft.EntityFrameworkCore.InMemory (3.1.0)
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:>7070
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7041
+++Microsoft.EntityFrameworkCore.Relational (3.1.0)
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:>7066
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7035
+++Microsoft.EntityFrameworkCore.SqlServer (3.1.0)
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:>7059
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7017
+++Microsoft.EntityFrameworkCore.Tools (3.1.0)
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:>7071
+++Microsoft.IdentityModel.Protocols (5.2.4)
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:>7069
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (2.0.4)
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:>7072
+++NLog.Web.AspNetCore (4.7.0)
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:>7065
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7033
+++System.Configuration.ConfigurationManager (4.5.0)
+i:{24d2f2a7-3476-499d-ab48-bfc97f82c45b}:>7064
+++TheCoreBanking.Authenticate
+i:{00000000-0000-0000-0000-000000000000}:TheCoreBanking.Authenticate
+++Connected Services 
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>6998
+++Properties
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\
+++PublishProfiles
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\
+++ServiceDependencies
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\servicedependencies\
+++launchSettings.json
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\launchsettings.json
+++wwwroot
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\
+++build
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\build\
+++core
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\core\
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\core\
+++bootstrap.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\core\bootstrap.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\core\bootstrap.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstrap.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\js\bootstrap.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\core\jquery.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\core\jquery.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery\jquery.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery\dist\jquery.js
+++jquery.slim.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\core\jquery.slim.min.js
+++popper.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\core\popper.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\core\popper.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\popper.min.js
+++select2.full.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\core\select2.full.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\core\select2.full.js
+++css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\css\
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\font-awesome\css\
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\css\
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\dist\css\
+++demo
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\demo\
+++fonts
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\font-awesome\fonts\
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\fonts\
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\dist\fonts\
+++img
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\
+++js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\js\
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\dist\js\
+++bootstraptable
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\bootstraptable\
+++bootstrap-datetimepicker.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\core\bootstrap-datetimepicker.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\plugins\bootstrap-datetimepicker.js
+++fileinput.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\core\fileinput.js
+++fullcalendar.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\core\fullcalendar.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\plugins\fullcalendar.min.js
+++jquery.validate.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\core\jquery.validate.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\plugins\jquery.validate.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++plugins
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\plugins\
+++AutoLogOff.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\autologoff.js
+++background.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\background.js
+++branch.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\branch.js
+++chat.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\chat.js
+++clear-browser-cache.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\clear-browser-cache.js
+++company.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\company.js
+++currency.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\currency.js
+++department.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\department.js
+++designation.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\designation.js
+++holidaysetup.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\holidaysetup.js
+++industry.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\industry.js
+++Logout.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\logout.js
+++main.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\main.js
+++MIS.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\mis.js
+++now-ui-dashboard.minf700.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\now-ui-dashboard.minf700.js
+++pace.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\pace.js
+++passwordscheck.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\passwordscheck.js
+++register.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\register.js
+++sector.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\sector.js
+++select2.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\select2.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\select2\select2.js
+++signout-redirect.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\signout-redirect.js
+++site.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\site.js
+++StartAndEndDay.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\startandendday.js
+++unit.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\unit.js
+++useManager.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\usemanager.js
+++ValidateEod.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\validateeod.js
+++lib
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\
+++Security
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\security\
+++setup
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\setup\
+++Upload
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\upload\
+++webfonts
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\webfonts\
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\webfonts\
+++favicon.ico
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\favicon.ico
+++fintraklogo.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fintraklogo.jpg
+++icon.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\icon.jpg
+++icon.png
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\icon.png
+++App_Data
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\app_data\
+++bin
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\bin\
+++Controllers
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\controllers\
+++AccountController.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\controllers\accountcontroller.cs
+++AdministrationController.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\controllers\administrationcontroller.cs
+++ConsentController.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\controllers\consentcontroller.cs
+++DiagnosticsController.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\controllers\diagnosticscontroller.cs
+++ExternalController.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\controllers\externalcontroller.cs
+++GrantsController.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\controllers\grantscontroller.cs
+++HolidaySetUpController.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\controllers\holidaysetupcontroller.cs
+++HomeController.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\controllers\homecontroller.cs
+++RemoteAPIController.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\controllers\remoteapicontroller.cs
+++SetupController.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\controllers\setupcontroller.cs
+++SubscriptionController.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\controllers\subscriptioncontroller.cs
+++Data
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\data\
+++Extensions
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\extensions\
+++Middleware
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\middleware\
+++Models
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\
+++ModelView
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\modelview\
+++Resources
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\resources\
+++Services
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\services\
+++Views
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\resources\views\
+++Account
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\account\
+++Administration
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\administration\
+++Consent
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\consent\
+++Diagnostics
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\diagnostics\
+++Grants
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\grants\
+++HolidaySetUp
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\holidaysetup\
+++Home
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\home\
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\resources\views\home\
+++Index.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\home\index.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\consent\index.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\diagnostics\index.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\grants\index.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\holidaysetup\index.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\setup\index.cshtml
+++RemoteAPI
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\remoteapi\
+++Setup
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\setup\
+++Shared
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\shared\
+++_ViewImports.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\_viewstart.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\account\_viewstart.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\administration\_viewstart.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\consent\_viewstart.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\holidaysetup\_viewstart.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\remoteapi\_viewstart.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\setup\_viewstart.cshtml
+++appsettings.json
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\appsettings.json
+++Chat.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\chat.cs
+++Config.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\config.cs
+++identityserver4_log.txt
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\identityserver4_log.txt
+++NLog.config
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\nlog.config
+++package.json
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\package.json
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\package.json
+++Program.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\program.cs
+++rsakey.json
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\rsakey.json
+++SeedData.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\seeddata.cs
+++sidebar-1.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\sidebar-1.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\sidebar-1.jpg
+++SigninCredentialExtension.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\signincredentialextension.cs
+++Startup.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\startup.cs
+++tempkey.rsa
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\tempkey.rsa
+++web.config
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\web.config
+++No service dependencies discovered
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>6999
+++Assemblies
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:assemblies
+++Projects
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:projects
+++FolderProfile.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\folderprofile.pubxml
+++FolderProfile1.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\folderprofile1.pubxml
+++FolderProfile10.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\folderprofile10.pubxml
+++FolderProfile11.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\folderprofile11.pubxml
+++FolderProfile12.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\folderprofile12.pubxml
+++FolderProfile13.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\folderprofile13.pubxml
+++FolderProfile14.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\folderprofile14.pubxml
+++FolderProfile15.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\folderprofile15.pubxml
+++FolderProfile16.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\folderprofile16.pubxml
+++FolderProfile17.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\folderprofile17.pubxml
+++FolderProfile18.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\folderprofile18.pubxml
+++FolderProfile19.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\folderprofile19.pubxml
+++FolderProfile2.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\folderprofile2.pubxml
+++FolderProfile3.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\folderprofile3.pubxml
+++FolderProfile4.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\folderprofile4.pubxml
+++FolderProfile5.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\folderprofile5.pubxml
+++FolderProfile6.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\folderprofile6.pubxml
+++FolderProfile7.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\folderprofile7.pubxml
+++FolderProfile8.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\folderprofile8.pubxml
+++FolderProfile9.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\folderprofile9.pubxml
+++IISProfile.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\iisprofile.pubxml
+++IISProfile1.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\iisprofile1.pubxml
+++IISProfile2.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\iisprofile2.pubxml
+++IISProfile3.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\iisprofile3.pubxml
+++FinTrakBankingMMBS - Web Deploy
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\servicedependencies\fintrakbankingmmbs - web deploy\
+++Company.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\build\company.js
+++jquery.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\core\jquery.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\core\jquery.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery\jquery.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery\dist\jquery.min.js
+++select2.full.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\core\select2.full.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\core\select2.full.min.js
+++font-awesome
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\font-awesome\
+++pace
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\
+++select2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\select2\
+++__bootstrap.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\__bootstrap.min.css
+++_bootstrap.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\_bootstrap.min.css
+++all.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\all.css
+++bootstrap.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\bootstrap.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\css\bootstrap.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++buttons.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\buttons.css
+++chatbox.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\chatbox.css
+++fileinput.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\fileinput.css
+++main.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\main.css
+++Montserrat.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\montserrat.css
+++normalize.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\normalize.css
+++now-ui-dashboard.minf700.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\now-ui-dashboard.minf700.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\webfonts\now-ui-dashboard.minf700.css
+++now-ui-dashboard.minf700_.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\now-ui-dashboard.minf700_.min.css
+++passwordcheck.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\passwordcheck.css
+++site.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\site.less
+++demo.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\demo\demo.css
+++demo.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\demo\demo.js
+++jquery.sharrre.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\demo\jquery.sharrre.js
+++glyphicons-halflings-regular.eot
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\glyphicons-halflings-regular.eot
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\fonts\glyphicons-halflings-regular.eot
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot
+++glyphicons-halflings-regular.svg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\glyphicons-halflings-regular.svg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\fonts\glyphicons-halflings-regular.svg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg
+++glyphicons-halflings-regular.ttf
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\glyphicons-halflings-regular.ttf
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\fonts\glyphicons-halflings-regular.ttf
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf
+++glyphicons-halflings-regular.woff
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\glyphicons-halflings-regular.woff
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\fonts\glyphicons-halflings-regular.woff
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff
+++glyphicons-halflings-regular.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\glyphicons-halflings-regular.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\fonts\glyphicons-halflings-regular.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2
+++JTURjIg1_i6t8kCHKm45_aZA3g3D_u50.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\jturjig1_i6t8kchkm45_aza3g3d_u50.woff2
+++JTURjIg1_i6t8kCHKm45_aZA3gbD_u50.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\jturjig1_i6t8kchkm45_aza3gbd_u50.woff2
+++JTURjIg1_i6t8kCHKm45_aZA3gfD_u50.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\jturjig1_i6t8kchkm45_aza3gfd_u50.woff2
+++JTURjIg1_i6t8kCHKm45_aZA3gnD_g.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\jturjig1_i6t8kchkm45_aza3gnd_g.woff2
+++JTURjIg1_i6t8kCHKm45_aZA3gTD_u50.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\jturjig1_i6t8kchkm45_aza3gtd_u50.woff2
+++JTURjIg1_i6t8kCHKm45_dJE3g3D_u50.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\jturjig1_i6t8kchkm45_dje3g3d_u50.woff2
+++JTURjIg1_i6t8kCHKm45_dJE3gbD_u50.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\jturjig1_i6t8kchkm45_dje3gbd_u50.woff2
+++JTURjIg1_i6t8kCHKm45_dJE3gfD_u50.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\jturjig1_i6t8kchkm45_dje3gfd_u50.woff2
+++JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\jturjig1_i6t8kchkm45_dje3gnd_g.woff2
+++JTURjIg1_i6t8kCHKm45_dJE3gTD_u50.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\jturjig1_i6t8kchkm45_dje3gtd_u50.woff2
+++JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\jtusjig1_i6t8kchkm459w1hyzbi.woff2
+++JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\jtusjig1_i6t8kchkm459wdhyzbi.woff2
+++JTUSjIg1_i6t8kCHKm459Wlhyw.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\jtusjig1_i6t8kchkm459wlhyw.woff2
+++JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\jtusjig1_i6t8kchkm459wrhyzbi.woff2
+++JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\jtusjig1_i6t8kchkm459wzhyzbi.woff2
+++nucleo-outline.eot
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\nucleo-outline.eot
+++nucleo-outline.ttf
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\nucleo-outline.ttf
+++nucleo-outline.woff
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\nucleo-outline.woff
+++nucleo-outline.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\fonts\nucleo-outline.woff2
+++apple-icon.png
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\apple-icon.png
+++AU.png
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\au.png
+++background_1.jpeg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\background_1.jpeg
+++background_10.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\background_10.jpg
+++background_11.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\background_11.jpg
+++background_12.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\background_12.jpg
+++background_13.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\background_13.jpg
+++background_14.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\background_14.jpg
+++background_15.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\background_15.jpg
+++background_2.jpeg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\background_2.jpeg
+++background_3.jpeg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\background_3.jpeg
+++background_4.jpeg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\background_4.jpeg
+++background_5.JPG
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\background_5.jpg
+++background_6.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\background_6.jpg
+++background_7.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\background_7.jpg
+++background_8.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\background_8.jpg
+++background_9.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\background_9.jpg
+++balmain.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\balmain.jpg
+++bg1.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\bg1.jpg
+++bg13.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\bg13.jpg
+++bg14.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\bg14.jpg
+++bg15.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\bg15.jpg
+++bg16.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\bg16.jpg
+++bg3.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\bg3.jpg
+++bg5.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\bg5.jpg
+++BR.png
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\br.png
+++DE.png
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\de.png
+++default-avatar.png
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\default-avatar.png
+++emilyz.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\emilyz.jpg
+++favicon.png
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\favicon.png
+++fintraklogo.png
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\fintraklogo.png
+++GB.png
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\gb.png
+++image_placeholder.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\image_placeholder.jpg
+++james.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\james.jpg
+++mike.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\mike.jpg
+++noaccess.png
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\noaccess.png
+++now-logo.png
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\now-logo.png
+++placeholder.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\placeholder.jpg
+++prada.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\prada.jpg
+++RO.png
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\ro.png
+++saint-laurent.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\saint-laurent.jpg
+++US.png
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\us.png
+++zenith-bank-logo_1.png
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\img\zenith-bank-logo_1.png
+++export
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\export\
+++group-by
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\group-by\
+++group-by-v2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\group-by-v2\
+++mobile
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\mobile\
+++print
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\print\
+++select2-filter
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\select2-filter\
+++bootstrap-table.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\bootstrap-table.js
+++bootstrap-table-locale-all.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\bootstrap-table-locale-all.js
+++fileinput.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\core\fileinput.min.js
+++bootstrap-notify.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\plugins\bootstrap-notify.js
+++bootstrap-selectpicker.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\plugins\bootstrap-selectpicker.js
+++bootstrap-switch.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\plugins\bootstrap-switch.js
+++bootstrap-tagsinput.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\plugins\bootstrap-tagsinput.js
+++buttons.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\plugins\buttons.js
+++chartjs.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\plugins\chartjs.min.js
+++jasny-bootstrap.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\plugins\jasny-bootstrap.min.js
+++jquery.bootstrap-wizard.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\plugins\jquery.bootstrap-wizard.js
+++jquery.dataTables.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\plugins\jquery.datatables.min.js
+++jquery-jvectormap.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\plugins\jquery-jvectormap.js
+++moment.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\plugins\moment.min.js
+++nouislider.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\plugins\nouislider.min.js
+++perfect-scrollbar.jquery.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\plugins\perfect-scrollbar.jquery.min.js
+++sweetalert2.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\plugins\sweetalert2.min.js
+++industry.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\industry.min.js
+++pace.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\pace.min.js
+++sector.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\sector.min.js
+++site.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\site.min.js
+++bootstrap
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\
+++jquery
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery\
+++jquery-validation
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery-validation-unobtrusive\
+++signalr
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\signalr\
+++priv.key
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\security\priv.key
+++pub.key
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\security\pub.key
+++work1.PNG
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\upload\work1.png
+++work2.PNG
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\upload\work2.png
+++fa-brands-400.eot
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\webfonts\fa-brands-400.eot
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\webfonts\fa-brands-400.eot
+++fa-brands-400.svg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\webfonts\fa-brands-400.svg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\webfonts\fa-brands-400.svg
+++fa-brands-400.ttf
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\webfonts\fa-brands-400.ttf
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\webfonts\fa-brands-400.ttf
+++fa-brands-400.woff
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\webfonts\fa-brands-400.woff
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\webfonts\fa-brands-400.woff
+++fa-brands-400.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\webfonts\fa-brands-400.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\webfonts\fa-brands-400.woff2
+++fa-regular-400.eot
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\webfonts\fa-regular-400.eot
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\webfonts\fa-regular-400.eot
+++fa-regular-400.svg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\webfonts\fa-regular-400.svg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\webfonts\fa-regular-400.svg
+++fa-regular-400.ttf
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\webfonts\fa-regular-400.ttf
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\webfonts\fa-regular-400.ttf
+++fa-regular-400.woff
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\webfonts\fa-regular-400.woff
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\webfonts\fa-regular-400.woff
+++fa-regular-400.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\webfonts\fa-regular-400.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\webfonts\fa-regular-400.woff2
+++fa-solid-900.eot
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\webfonts\fa-solid-900.eot
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\webfonts\fa-solid-900.eot
+++fa-solid-900.svg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\webfonts\fa-solid-900.svg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\webfonts\fa-solid-900.svg
+++fa-solid-900.ttf
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\webfonts\fa-solid-900.ttf
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\webfonts\fa-solid-900.ttf
+++fa-solid-900.woff
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\webfonts\fa-solid-900.woff
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\webfonts\fa-solid-900.woff
+++fa-solid-900.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\webfonts\fa-solid-900.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\webfonts\fa-solid-900.woff2
+++fintakimage.jpg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\app_data\fintakimage.jpg
+++fintrak_logo_png.png
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\app_data\fintrak_logo_png.png
+++WelcomeEmail.txt
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\app_data\welcomeemail.txt
+++Migrations
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\data\migrations\
+++ApplicationDbContext.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\data\applicationdbcontext.cs
+++TheCoreBanking.Data.dll
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\data\thecorebanking.data.dll
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\data\migrations\thecorebanking.data.dll
+++EmailSenderExtensions.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\extensions\emailsenderextensions.cs
+++ManageNavPages.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\extensions\managenavpages.cs
+++AntiXssMiddleware.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\middleware\antixssmiddleware.cs
+++AdUserModel.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\adusermodel.cs
+++APIMISVModel.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\apimisvmodel.cs
+++ApplicationUser.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\applicationuser.cs
+++ConsentInputModel.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\consentinputmodel.cs
+++ConsentViewModel.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\consentviewmodel.cs
+++DemoResponse.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\demoresponse.cs
+++DiagnosticsViewModel.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\diagnosticsviewmodel.cs
+++ErrorViewModel.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\errorviewmodel.cs
+++ForgotPasswordViewModel.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\forgotpasswordviewmodel.cs
+++GrantsViewModel.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\grantsviewmodel.cs
+++LoggedOutViewModel.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\loggedoutviewmodel.cs
+++LoginInputModel.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\logininputmodel.cs
+++LoginViewModel.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\loginviewmodel.cs
+++LogoutInputModel.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\logoutinputmodel.cs
+++LogoutViewModel.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\logoutviewmodel.cs
+++RegisterViewModel.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\registerviewmodel.cs
+++ResetPasswordViewModel.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\resetpasswordviewmodel.cs
+++ScopeViewModel.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\scopeviewmodel.cs
+++TblSignature.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\tblsignature.cs
+++TheCoreBankingAzureContext.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\thecorebankingazurecontext.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\modelview\thecorebankingazurecontext.cs
+++TheCoreBankingContext.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\models\thecorebankingcontext.cs
+++Views.Home.Index.fr.resx
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\resources\views.home.index.fr.resx
+++AccountOptions.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\services\accountoptions.cs
+++AccountService.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\services\accountservice.cs
+++AuthMessageSenderOptions.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\services\authmessagesenderoptions.cs
+++ConsentOptions.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\services\consentoptions.cs
+++EmailSender.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\services\emailsender.cs
+++EmailSenderOptions.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\services\emailsenderoptions.cs
+++EmailService.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\services\emailservice.cs
+++Extensions.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\services\extensions.cs
+++ExternalProvider.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\services\externalprovider.cs
+++FormJsonBinder.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\services\formjsonbinder.cs
+++IdentityTransaction.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\services\identitytransaction.cs
+++IEmailSender.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\services\iemailsender.cs
+++IEmailService.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\services\iemailservice.cs
+++MailHelper.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\services\mailhelper.cs
+++ProcessConsentResult.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\services\processconsentresult.cs
+++RsaKeyService.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\services\rsakeyservice.cs
+++SecurityHeadersAttribute.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\services\securityheadersattribute.cs
+++TestUsers.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\services\testusers.cs
+++UploadSignature.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\services\uploadsignature.cs
+++_ValidationSummary.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\account\_validationsummary.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\remoteapi\_validationsummary.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\shared\_validationsummary.cshtml
+++AccessDenied.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\account\accessdenied.cshtml
+++Authenticate.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\account\authenticate.cshtml
+++ChangePassword.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\account\changepassword.cshtml
+++ConfirmEmail.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\account\confirmemail.cshtml
+++ContactEmail.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\account\contactemail.cshtml
+++ForgotPassword.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\account\forgotpassword.cshtml
+++ForgotPasswordConfirmation.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\account\forgotpasswordconfirmation.cshtml
+++LoggedOut.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\account\loggedout.cshtml
+++Login.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\account\login.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\remoteapi\login.cshtml
+++Logout.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\account\logout.cshtml
+++ResetPassword.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\account\resetpassword.cshtml
+++SendPasswordResetLink.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\account\sendpasswordresetlink.cshtml
+++AutoLogOut.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\administration\autologout.cshtml
+++LogTrack.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\administration\logtrack.cshtml
+++Register.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\administration\register.cshtml
+++StartAndEndDay.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\administration\startandendday.cshtml
+++UserManagement.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\administration\usermanagement.cshtml
+++ValidateEOD.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\administration\validateeod.cshtml
+++_ScopeListItem.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\consent\_scopelistitem.cshtml
+++_AddIndustry.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\setup\_addindustry.cshtml
+++_AddSector.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\setup\_addsector.cshtml
+++_ConsentLayout.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\shared\_consentlayout.cshtml
+++_GeneralLayout.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\shared\_generallayout.cshtml
+++_Layout.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\shared\_layout.cshtml
+++_LoginLayout.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\shared\_loginlayout.cshtml
+++_SelectLanguagePartial.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\shared\_selectlanguagepartial.cshtml
+++Error.cshtml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\views\shared\error.cshtml
+++package-lock.json
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\package-lock.json
+++Microsoft.AspNetCore.Analyzers
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++TheCoreBanking.Data
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\thecorebanking.data
+++Microsoft.AspNetCore.App
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\microsoft.aspnetcore.app
+++AntiXSS (4.3.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7038
+++AutoMapper (9.0.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7039
+++BouncyCastle.NetCore (1.8.8)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7049
+++IdentityServer4 (3.1.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7052
+++IdentityServer4.AspNetIdentity (3.1.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7025
+++IdentityServer4.EntityFramework (3.1.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7031
+++IdentityServer4.EntityFramework.Storage (3.1.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7012
+++IdentityServer4.Storage (3.1.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7023
+++Microsoft.AspNetCore.Authentication.AzureAD.UI (3.1.9)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7022
+++Microsoft.AspNetCore.Identity (2.2.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7024
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (3.1.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7032
+++Microsoft.AspNetCore.Identity.UI (3.1.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7047
+++Microsoft.Azure.KeyVault (3.0.5)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7015
+++Microsoft.Azure.Services.AppAuthentication (1.6.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7046
+++Microsoft.Data.SqlClient (2.0.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7016
+++Microsoft.EntityFrameworkCore.Analyzers (3.1.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7029
+++Microsoft.Extensions.Configuration.AzureKeyVault (3.1.9)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7010
+++Microsoft.IdentityModel.Protocols (6.7.1)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7040
+++Microsoft.IdentityModel.Protocols.OpenIdConnect (6.7.1)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7018
+++Microsoft.Net.Http.Headers (2.2.8)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7030
+++Microsoft.VisualStudio.Web.CodeGeneration.Contracts (3.1.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7042
+++Microsoft.VisualStudio.Web.CodeGeneration.Core (3.1.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7013
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (3.1.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7045
+++Microsoft.VisualStudio.Web.CodeGeneration.Templating (3.1.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7034
+++Microsoft.VisualStudio.Web.CodeGeneration.Utils (3.1.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7027
+++NWebsec.AspNetCore.Middleware (3.0.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7050
+++NWebsec.AspNetCore.Mvc (3.0.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7028
+++RestSharp (106.12.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7044
+++Sendgrid (9.10.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7026
+++Serilog (2.6.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7043
+++Serilog.Extensions.Logging (2.0.2)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7020
+++Serilog.Sinks.Console (3.1.1)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7037
+++Serilog.Sinks.Seq (4.0.0)
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:>7011
+++profile.arm.json
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\servicedependencies\fintrakbankingmmbs - web deploy\profile.arm.json
+++Company.js.map
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\build\company.js.map
+++bootstrap-table.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\bootstraptable\bootstrap-table.css
+++fa-brands.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\css\fa-brands.css
+++fa-regular.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\css\fa-regular.css
+++fa-solid.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\css\fa-solid.css
+++fontawesome.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\css\fontawesome.css
+++fontawesome-all.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\css\fontawesome-all.css
+++black
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\black\
+++blue
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\blue\
+++green
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\green\
+++orange
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\orange\
+++pink
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\pink\
+++purple
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\purple\
+++red
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\red\
+++silver
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\silver\
+++white
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\white\
+++yellow
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\yellow\
+++select2.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\select2\select2.css
+++select2-bootstrap.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\select2\select2-bootstrap.css
+++select2-bootstrap.zip
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\select2\select2-bootstrap.zip
+++select2-bootstrap4.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\select2\select2-bootstrap4.css
+++now-ui-dashboard.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\webfonts\now-ui-dashboard.css
+++all.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\all.min.css
+++bootstrap.min.css.map
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\bootstrap.min.css.map
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++fileinput.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\fileinput.min.css
+++Montserrat.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\montserrat.min.css
+++now-ui-dashboard.minf700.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\now-ui-dashboard.minf700.min.css
+++site.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\site.css
+++bootstrap-table-export.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\export\bootstrap-table-export.js
+++bootstrap-table-group-by.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\group-by\bootstrap-table-group-by.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\group-by-v2\bootstrap-table-group-by.css
+++bootstrap-table-group-by.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\group-by\bootstrap-table-group-by.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\group-by-v2\bootstrap-table-group-by.js
+++bootstrap-table-mobile.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\mobile\bootstrap-table-mobile.js
+++bootstrap-table-print.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\print\bootstrap-table-print.js
+++bootstrap-table-select2-filter.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\select2-filter\bootstrap-table-select2-filter.js
+++bootstrap-table.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\bootstrap-table.min.js
+++bootstrap-table-locale-all.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\bootstrap-table-locale-all.min.js
+++dist
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\dist\
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery\dist\
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery-validation\dist\
+++grunt
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\grunt\
+++less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\
+++nuget
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\nuget\
+++.bower.json
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\.bower.json
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery\.bower.json
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery-validation\.bower.json
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery-validation-unobtrusive\.bower.json
+++bower.json
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\bower.json
+++CHANGELOG.md
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\changelog.md
+++Gemfile
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\gemfile
+++Gruntfile.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\gruntfile.js
+++ISSUE_TEMPLATE.md
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\issue_template.md
+++LICENSE
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\license
+++package.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\package.js
+++README.md
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\readme.md
+++LICENSE.txt
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery\license.txt
+++LICENSE.md
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++signalr.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\signalr\signalr.js
+++IdentityServer
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\data\migrations\identityserver\
+++bootstrap-table.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\bootstraptable\bootstrap-table.min.css
+++fa-brands.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\css\fa-brands.min.css
+++fa-regular.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\css\fa-regular.min.css
+++fa-solid.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\css\fa-solid.min.css
+++fontawesome.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\css\fontawesome.min.css
+++fontawesome-all.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\css\fontawesome-all.min.css
+++font-awesome.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\font-awesome\css\font-awesome.min.css
+++FontAwesome.otf
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\font-awesome\fonts\fontawesome.otf
+++fontawesome-webfont.eot
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\font-awesome\fonts\fontawesome-webfont.eot
+++fontawesome-webfont.svg
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\font-awesome\fonts\fontawesome-webfont.svg
+++fontawesome-webfont.ttf
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\font-awesome\fonts\fontawesome-webfont.ttf
+++fontawesome-webfont.woff
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\font-awesome\fonts\fontawesome-webfont.woff
+++fontawesome-webfont.woff2
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\font-awesome\fonts\fontawesome-webfont.woff2
+++pace-theme-barber-shop.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\black\pace-theme-barber-shop.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\blue\pace-theme-barber-shop.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\green\pace-theme-barber-shop.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\orange\pace-theme-barber-shop.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\pink\pace-theme-barber-shop.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\purple\pace-theme-barber-shop.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\red\pace-theme-barber-shop.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\silver\pace-theme-barber-shop.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\white\pace-theme-barber-shop.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\yellow\pace-theme-barber-shop.css
+++pace-theme-big-counter.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\black\pace-theme-big-counter.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\blue\pace-theme-big-counter.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\green\pace-theme-big-counter.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\orange\pace-theme-big-counter.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\pink\pace-theme-big-counter.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\purple\pace-theme-big-counter.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\red\pace-theme-big-counter.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\silver\pace-theme-big-counter.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\white\pace-theme-big-counter.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\yellow\pace-theme-big-counter.css
+++pace-theme-bounce.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\black\pace-theme-bounce.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\blue\pace-theme-bounce.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\green\pace-theme-bounce.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\orange\pace-theme-bounce.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\pink\pace-theme-bounce.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\purple\pace-theme-bounce.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\red\pace-theme-bounce.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\silver\pace-theme-bounce.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\white\pace-theme-bounce.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\yellow\pace-theme-bounce.css
+++pace-theme-center-atom.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\black\pace-theme-center-atom.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\blue\pace-theme-center-atom.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\green\pace-theme-center-atom.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\orange\pace-theme-center-atom.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\pink\pace-theme-center-atom.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\purple\pace-theme-center-atom.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\red\pace-theme-center-atom.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\silver\pace-theme-center-atom.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\white\pace-theme-center-atom.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\yellow\pace-theme-center-atom.css
+++pace-theme-center-circle.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\black\pace-theme-center-circle.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\blue\pace-theme-center-circle.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\green\pace-theme-center-circle.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\orange\pace-theme-center-circle.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\pink\pace-theme-center-circle.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\purple\pace-theme-center-circle.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\red\pace-theme-center-circle.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\silver\pace-theme-center-circle.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\white\pace-theme-center-circle.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\yellow\pace-theme-center-circle.css
+++pace-theme-center-radar.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\black\pace-theme-center-radar.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\blue\pace-theme-center-radar.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\green\pace-theme-center-radar.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\orange\pace-theme-center-radar.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\pink\pace-theme-center-radar.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\purple\pace-theme-center-radar.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\red\pace-theme-center-radar.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\silver\pace-theme-center-radar.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\white\pace-theme-center-radar.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\yellow\pace-theme-center-radar.css
+++pace-theme-center-simple.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\black\pace-theme-center-simple.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\blue\pace-theme-center-simple.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\green\pace-theme-center-simple.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\orange\pace-theme-center-simple.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\pink\pace-theme-center-simple.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\purple\pace-theme-center-simple.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\red\pace-theme-center-simple.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\silver\pace-theme-center-simple.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\white\pace-theme-center-simple.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\yellow\pace-theme-center-simple.css
+++pace-theme-corner-indicator.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\black\pace-theme-corner-indicator.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\blue\pace-theme-corner-indicator.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\green\pace-theme-corner-indicator.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\orange\pace-theme-corner-indicator.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\pink\pace-theme-corner-indicator.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\purple\pace-theme-corner-indicator.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\red\pace-theme-corner-indicator.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\silver\pace-theme-corner-indicator.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\white\pace-theme-corner-indicator.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\yellow\pace-theme-corner-indicator.css
+++pace-theme-fill-left.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\black\pace-theme-fill-left.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\blue\pace-theme-fill-left.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\green\pace-theme-fill-left.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\orange\pace-theme-fill-left.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\pink\pace-theme-fill-left.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\purple\pace-theme-fill-left.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\red\pace-theme-fill-left.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\silver\pace-theme-fill-left.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\white\pace-theme-fill-left.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\yellow\pace-theme-fill-left.css
+++pace-theme-flash.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\black\pace-theme-flash.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\blue\pace-theme-flash.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\green\pace-theme-flash.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\orange\pace-theme-flash.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\pink\pace-theme-flash.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\purple\pace-theme-flash.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\red\pace-theme-flash.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\silver\pace-theme-flash.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\white\pace-theme-flash.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\yellow\pace-theme-flash.css
+++pace-theme-flat-top.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\black\pace-theme-flat-top.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\blue\pace-theme-flat-top.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\green\pace-theme-flat-top.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\orange\pace-theme-flat-top.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\pink\pace-theme-flat-top.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\purple\pace-theme-flat-top.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\red\pace-theme-flat-top.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\silver\pace-theme-flat-top.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\white\pace-theme-flat-top.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\yellow\pace-theme-flat-top.css
+++pace-theme-loading-bar.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\black\pace-theme-loading-bar.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\blue\pace-theme-loading-bar.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\green\pace-theme-loading-bar.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\orange\pace-theme-loading-bar.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\pink\pace-theme-loading-bar.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\purple\pace-theme-loading-bar.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\red\pace-theme-loading-bar.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\silver\pace-theme-loading-bar.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\white\pace-theme-loading-bar.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\yellow\pace-theme-loading-bar.css
+++pace-theme-mac-osx.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\black\pace-theme-mac-osx.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\blue\pace-theme-mac-osx.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\green\pace-theme-mac-osx.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\orange\pace-theme-mac-osx.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\pink\pace-theme-mac-osx.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\purple\pace-theme-mac-osx.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\red\pace-theme-mac-osx.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\silver\pace-theme-mac-osx.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\white\pace-theme-mac-osx.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\yellow\pace-theme-mac-osx.css
+++pace-theme-material.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\black\pace-theme-material.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\blue\pace-theme-material.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\green\pace-theme-material.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\orange\pace-theme-material.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\pink\pace-theme-material.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\purple\pace-theme-material.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\red\pace-theme-material.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\silver\pace-theme-material.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\white\pace-theme-material.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\yellow\pace-theme-material.css
+++pace-theme-minimal.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\black\pace-theme-minimal.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\blue\pace-theme-minimal.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\green\pace-theme-minimal.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\orange\pace-theme-minimal.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\pink\pace-theme-minimal.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\purple\pace-theme-minimal.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\red\pace-theme-minimal.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\silver\pace-theme-minimal.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\white\pace-theme-minimal.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\yellow\pace-theme-minimal.css
+++select2.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\select2\select2.min.css
+++select2.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\select2\select2.min.js
+++select2-bootstrap.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\select2\select2-bootstrap.min.css
+++select2-bootstrap4.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\select2\select2-bootstrap4.min.css
+++now-ui-dashboard.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\webfonts\now-ui-dashboard.min.css
+++site.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\site.min.css
+++bootstrap-table-export.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\export\bootstrap-table-export.min.js
+++bootstrap-table-group-by.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\group-by\bootstrap-table-group-by.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\group-by-v2\bootstrap-table-group-by.min.js
+++bootstrap-table-mobile.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\mobile\bootstrap-table-mobile.min.js
+++bootstrap-table-print.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\print\bootstrap-table-print.min.js
+++bootstrap-table-select2-filter.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\js\bootstraptable\select2-filter\bootstrap-table-select2-filter.min.js
+++bootstrap.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\css\bootstrap.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++.jshintrc
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\grunt\.jshintrc
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\js\.jshintrc
+++bs-commonjs-generator.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\grunt\bs-commonjs-generator.js
+++bs-glyphicons-data-generator.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\grunt\bs-glyphicons-data-generator.js
+++bs-lessdoc-parser.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\grunt\bs-lessdoc-parser.js
+++bs-raw-files-generator.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\grunt\bs-raw-files-generator.js
+++change-version.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\grunt\change-version.js
+++configBridge.json
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\grunt\configbridge.json
+++npm-shrinkwrap.json
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\grunt\npm-shrinkwrap.json
+++sauce_browsers.yml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\grunt\sauce_browsers.yml
+++.jscsrc
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\js\.jscsrc
+++affix.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\js\affix.js
+++alert.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\js\alert.js
+++bootstrap.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\js\bootstrap.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++button.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\js\button.js
+++carousel.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\js\carousel.js
+++collapse.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\js\collapse.js
+++dropdown.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\js\dropdown.js
+++modal.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\js\modal.js
+++popover.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\js\popover.js
+++scrollspy.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\js\scrollspy.js
+++tab.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\js\tab.js
+++tooltip.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\js\tooltip.js
+++transition.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\js\transition.js
+++mixins
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\
+++.csscomb.json
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\.csscomb.json
+++.csslintrc
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\.csslintrc
+++alerts.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\alerts.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\alerts.less
+++badges.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\badges.less
+++bootstrap.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\bootstrap.less
+++breadcrumbs.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\breadcrumbs.less
+++button-groups.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\button-groups.less
+++buttons.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\buttons.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\buttons.less
+++carousel.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\carousel.less
+++close.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\close.less
+++code.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\code.less
+++component-animations.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\component-animations.less
+++dropdowns.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\dropdowns.less
+++forms.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\forms.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\forms.less
+++glyphicons.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\glyphicons.less
+++grid.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\grid.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\grid.less
+++input-groups.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\input-groups.less
+++jumbotron.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\jumbotron.less
+++labels.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\labels.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\labels.less
+++list-group.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\list-group.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\list-group.less
+++media.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\media.less
+++mixins.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins.less
+++modals.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\modals.less
+++navbar.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\navbar.less
+++navs.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\navs.less
+++normalize.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\normalize.less
+++pager.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\pager.less
+++pagination.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\pagination.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\pagination.less
+++panels.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\panels.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\panels.less
+++popovers.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\popovers.less
+++print.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\print.less
+++progress-bars.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\progress-bars.less
+++responsive-embed.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\responsive-embed.less
+++responsive-utilities.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\responsive-utilities.less
+++scaffolding.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\scaffolding.less
+++tables.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\tables.less
+++theme.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\theme.less
+++thumbnails.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\thumbnails.less
+++tooltip.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\tooltip.less
+++type.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\type.less
+++utilities.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\utilities.less
+++variables.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\variables.less
+++wells.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\wells.less
+++bootstrap.less.nuspec
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\nuget\bootstrap.less.nuspec
+++bootstrap.nuspec
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\nuget\bootstrap.nuspec
+++MyGet.ps1
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\nuget\myget.ps1
+++Gemfile.lock
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\gemfile.lock
+++additional-methods.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++signalr.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\signalr\signalr.min.js
+++ConfigurationDb
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\data\migrations\identityserver\configurationdb\
+++Index.fr_FR.resx
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\resources\views\home\index.fr_fr.resx
+++pace-theme-flash.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\css\pace\red\pace-theme-flash.min.css
+++bootstrap.css.map
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\css\bootstrap.css.map
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap-theme.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css
+++npm.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\dist\js\npm.js
+++background-variant.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\background-variant.less
+++border-radius.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\border-radius.less
+++center-block.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\center-block.less
+++clearfix.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\clearfix.less
+++gradients.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\gradients.less
+++grid-framework.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\grid-framework.less
+++hide-text.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\hide-text.less
+++image.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\image.less
+++nav-divider.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\nav-divider.less
+++nav-vertical-align.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\nav-vertical-align.less
+++opacity.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\opacity.less
+++progress-bar.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\progress-bar.less
+++reset-filter.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\reset-filter.less
+++reset-text.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\reset-text.less
+++resize.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\resize.less
+++responsive-visibility.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\responsive-visibility.less
+++size.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\size.less
+++tab-focus.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\tab-focus.less
+++table-row.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\table-row.less
+++text-emphasis.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\text-emphasis.less
+++text-overflow.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\text-overflow.less
+++vendor-prefixes.less
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\less\mixins\vendor-prefixes.less
+++jquery.min.map
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery\jquery.min.map
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery\dist\jquery.min.map
+++additional-methods.min.js
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++20201011004948_InitialdentityServerConfigurationDbMigration.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\data\migrations\identityserver\configurationdb\20201011004948_initialdentityserverconfigurationdbmigration.cs
+++20201011205146_InitialdntityServerConfigurationDbMigration.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\data\migrations\identityserver\configurationdb\20201011205146_initialdntityserverconfigurationdbmigration.cs
+++20201011205757_InDbMigration.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\data\migrations\identityserver\configurationdb\20201011205757_indbmigration.cs
+++ConfigurationDbContextModelSnapshot.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\data\migrations\identityserver\configurationdb\configurationdbcontextmodelsnapshot.cs
+++bootstrap-theme.css.map
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map
+++bootstrap-theme.min.css
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css
+++20201011004948_InitialdentityServerConfigurationDbMigration.Designer.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\data\migrations\identityserver\configurationdb\20201011004948_initialdentityserverconfigurationdbmigration.designer.cs
+++20201011205146_InitialdntityServerConfigurationDbMigration.Designer.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\data\migrations\identityserver\configurationdb\20201011205146_initialdntityserverconfigurationdbmigration.designer.cs
+++20201011205757_InDbMigration.Designer.cs
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\data\migrations\identityserver\configurationdb\20201011205757_indbmigration.designer.cs
+++bootstrap-theme.min.css.map
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map
+++FolderProfile20.pubxml
+i:{6b14ae0b-7080-4118-ad87-d7a7e1a08047}:c:\workspace\erp\erp nibss\admin_nibss\admin_nibss\admin_nibss\admin_nibss\thecorebanking.authenticate\properties\publishprofiles\folderprofile20.pubxml

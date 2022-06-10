@@ -1,0 +1,133 @@
+﻿
+@model TheCoreBanking.Authenticate.Data.Model.TblEodvalidation
+
+<div class="card">
+
+    <div class="col-md-2  pull-right "><h4 class=""> <small>End of Day</small></h4></div>
+    <div class="card-header">
+        <h4 class="card-title">Validate EOD - <small class="description">Check for pending transactions</small></h4>
+    </div>
+     
+
+    <div class="card-body">
+        <div class="row">
+            <div class="card card-plain">
+                <div class="card-body">
+                    <div id="definition-toolbar">
+                        <button class="btn btn-info" id="btnAddvalidat"
+                                onclick="openEodValidateModal()">
+                            <i class="now-ui-icons ui-1_simple-add"></i>
+                            Validate End Of Day
+                        </button>
+                    </div>
+                    <table id="validateTable" data-toggle="table"
+                           data-url="@Url.Action("listPendingTransactions", "Administration")"                          
+                           data-search="true" class="data-table"
+                           data-toolbar="#definition-toolbar"
+                           data-search-align="right" data-detail-view="true"
+                           data-show-pagination-switch="true"
+                           data-mobile-responsive="true"
+                           data-show-refresh="true"
+                           data-show-toggle="true"
+                           data-buttons-class="danger"
+                           data-striped="true table-hover"
+                           data-detail-formatter="define.tillDefineTableFormatter">
+                        <thead>
+                            <tr>
+                                <th data-field="transDate" data-formatter="dateFormatter"><b>TransactionDate</b></th>
+                                <th data-field="officer" data-sortable="true"><b>Name</b></th>
+                                <th data-field="dealId" data-sortable="true"><b>Account</b></th>
+                                <th data-field="operation"><b>Operation Description</b></th>
+
+
+                                @*<th data-events="ValidateEodEvents" data-formatter="deleteDefinedFormatter"
+        data-align="center" data-width="5%"></th>*@
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="AddNewValidationEod" class="modal fade" role="dialog" aria-hidden="true" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="title text-primary">
+                    <span id="ValidateEodTitle"></span> Prior EOD Validation
+                </h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="now-ui-icons ui-1_simple-remove"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+               
+                <div class="card card-stats">
+
+                    <div class="card-body ">
+
+                        <div class="statistics statistics-horizontal">
+                            <div class="info info-horizontal">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <div class="icon icon-primary icon-circle">
+                                            <i class="now-ui-icons ui-2_chat-round"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-7 text-right">
+                                        <h3 class="info-title">Validate EOD</h3>
+                                        <i>Once clicked, all posted transactions that are still pending for approval will be generated</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="card-footer ">
+                        @*<div class="stats">
+                            <i class="now-ui-icons arrows-1_refresh-69"></i> Update now
+                        </div>*@
+
+
+                        <form id="frmEODValid">
+
+
+                            <div class="row mt-4 justify-content-between">
+                                <div class="stats">
+                                    <i class="now-ui-icons arrows-1_refresh-69"></i> Update now
+                                </div>
+
+                                <div class="stats">
+                                    <button class="btn btn-danger btn-wd pull-right" type="button"
+                                            id="btnAddEodValidation" onclick="AddEodValidation()">
+                                       Click To Validate EOD
+                                    </button>
+
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+   <script src="~/js/ValidateEod.js"></script>
+
+}
+
+ 
+
+

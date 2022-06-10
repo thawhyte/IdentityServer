@@ -1,0 +1,89 @@
+﻿
+
+
+
+<div class="card">
+    <div class="card-body">
+        <div class="card card-plain">
+            <div class="card-header text-center">
+                <h4 class="card-title">Auto Sign Off </h4>
+            </div>
+            <div class="card-body">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col">
+                            <form id="frmLogOut">
+                                <input type="hidden" name="sectorid" id="sectorid" />
+
+                                <div class="row">
+                                    <div class="form-group col-md-12 required">
+                                        Logout Duration(minute)
+                                        <input name="Time" required id="Time"
+                                               type="number" class="form-control" />
+                                    </div>
+
+
+                                </div>
+                                <div class="form-group text-right">
+                                    @*<button class="btn btn-info" id="btnAddLogUpdate" type="submit" value="Update Record">
+                                        <i class="now-ui-icons ui-1_check"></i>
+                                        Update Record
+                                    </button>*@
+
+                                    <button class="btn btn-info" id="btnAddLog" type="submit" value="Save Record">
+                                        <i class="now-ui-icons ui-1_check"></i>
+                                        Save Record
+                                    </button>
+
+                                    <button class="btn btn-danger" type="reset">
+                                        <i class="now-ui-icons ui-1_simple-remove"></i>
+                                        Clear
+                                    </button>
+                                </div>
+
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-plain">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="card card-plain">
+                            <div class="card-body">
+
+                                <table id="durationTable" data-toggle="table"
+                                       data-url="/Administration/listAutoLogOut"
+                                       data-search="true" class="data-table"
+                                       data-toolbar="#sector-toolbar"
+                                       data-search-align="right"
+                                       data-show-pagination-switch="true"
+                                       data-page-list="[5,10,25,50,100,150,200,250,300]"
+                                       data-page-size="15" data-pagination="true"
+                                       data-mobile-responsive="true"
+                                       data-show-refresh="true"
+                                       data-show-toggle="true"
+                                       data-buttons-class="danger">
+                                    <thead>
+                                        <tr>
+                                            <th data-field="createdBy" data-sortable="true">Created By</th>
+                                            <th data-field="logoutTime" data-sortable="true">Logout Time</th>
+                                            <th data-field="dateCreated" data-formatter="dateFormatter" data-sortable="true">Date Created</th>
+                                            <th data-field="" data-events="LogOffEvents" data-formatter="LogOffFormatter">  </th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+
+    <script src="~/js/AutoLogOff.js"></script>
+}

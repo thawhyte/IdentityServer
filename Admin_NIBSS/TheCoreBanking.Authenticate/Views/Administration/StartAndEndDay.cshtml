@@ -1,0 +1,99 @@
+﻿
+@{
+    ViewData["Title"] = "Start And End Of Day";
+}
+
+<div class="card  card-subcategories">
+
+    <div class="card-header ">
+        <h4 class="card-title text-center"> Manage Start And End Of Day</h4>
+        <br />
+    </div>
+
+    <div class="card-body ">
+
+        <!--
+           color-classes: "nav-pills-primary", "nav-pills-info", "nav-pills-success", "nav-pills-warning","nav-pills-danger"
+        -->
+        <ul class="nav nav-pills nav-pills-danger nav-pills-icons justify-content-center" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#AssignSOD" role="tablist">
+                    <i class="now-ui-icons objects_umbrella-13"></i>
+                    Start Day
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#AssignEOD" role="tablist">
+                    <i class="fa fa-address-card"></i>
+                    End Day
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#AssignEOY" role="tablist">
+                    <i class="fa fa-address-card"></i>
+                    End Year
+                </a>
+            </li>
+        </ul>
+        <div class="tab-content tab-space tab-subcategories">
+            <div class="tab-pane active" id="AssignSOD">
+                <form asp-route="ManageSOD" id="frmAssignSOD">
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            @ViewBag.CurrentDate
+                            <button class="btn btn-info col-md-12" id="btnAssignSOD" type="button" value="Start the Day">
+                                @*<i class="now-ui-icons arrows-1_minimal-right"></i>*@ <i class="fas fa-plus"></i>
+                                Start the Day
+                                @*<i class="now-ui-icons arrows-1_minimal-right"></i>*@ <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="tab-pane" id="AssignEOD">
+                <form asp-route="ManageEOD" id="frmAssignEOD">
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            @ViewBag.CurrentDate
+                            <button class="btn btn-info col-md-12" id="btnAssignEOD" type="button" value="End the Day">
+                                @*<i class="now-ui-icons arrows-1_minimal-right"></i>*@ <i class="fas fa-plus"></i>
+                                End the Day
+                                @*<i class="now-ui-icons arrows-1_minimal-right"></i>*@ <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                        @*<div class="alert alert-dismissible alert-danger text-capitalize text-bold" id="PendingApproval"></div>*@
+                    </div>
+                </form>
+            </div>
+            <div class="tab-pane" id="AssignEOY">
+                <form asp-route="ManageEOY" id="frmAssignEOY">
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
+                        <div class="col-md-12">
+
+                            <button class="btn btn-info col-md-12" id="btnAssignEOY" type="button" value="End the Year">
+                                @*<i class="now-ui-icons arrows-1_minimal-right"></i>*@ <i class="fas fa-plus"></i>
+                                End the Year
+                                @*<i class="now-ui-icons arrows-1_minimal-right"></i>*@ <i class="fas fa-plus"></i>
+                            </button>
+
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-8">
+                            <input class="form-control datetimepicker" id="EndYearDate" />
+                        </div>
+
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts{
+    <script src="~/js/StartAndEndDay.js"></script>
+}

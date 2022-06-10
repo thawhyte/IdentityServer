@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>E:\NIBBSPLATFORM</_PublishTargetUrl>
+    <History>False|2021-12-16T12:14:48.6565252Z;True|2021-09-28T19:09:04.5596042+01:00;True|2021-09-10T12:19:21.8500711+01:00;True|2021-09-10T11:38:59.6011285+01:00;</History>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,59 @@
+﻿@model LoginViewModel
+
+
+
+@if (Model.EnableLocalLogin)
+{
+    <div class="col-md-4 ml-auto mr-auto">
+        <form asp-route="Login">
+            <input type="hidden" asp-for="ReturnUrl" />
+            <div class="card card-pricing card-plain">
+
+                <div class="card-header">
+       
+                  
+                    <h5 class="title"> <i class="title now-ui-icons business_bank"></i><br />Enterprise Resource Application &reg;</h5>
+                    <h6 class="description"> Limitless Resources Experience.</h6>
+                    
+                </div>
+
+                <div class="card-body ">
+                    @Html.Partial("_ValidationSummary")
+                    <div class="input-group no-border form-control-lg">
+                        <span class="input-group-addon">
+                            <i class="now-ui-icons users_circle-08"></i>
+                        </span>
+                        <input class="form-control" placeholder="Username" asp-for="Username" autofocus>
+                    </div>
+
+                    <div class="input-group no-border form-control-lg">
+                        <span class="input-group-addon">
+                            <i class="now-ui-icons text_caps-small"></i>
+                        </span>
+                        <input type="password" class="form-control" placeholder="Password" asp-for="Password" autocomplete="off">
+                    </div>
+                 
+                    <a href="@Url.Action("ForgotPassword","Account")">Forgot Password</a>
+                    @*@if (Model.AllowRememberLogin)
+        {
+            <div class="input-group no-border form-control-lg login-remember">
+                <div class="form-check">
+                    <label asp-for="RememberLogin" class="form-check-label">
+                        <input asp-for="RememberLogin" class="form-check-input">
+                         <span class="form-check-sign"></span>
+                        Remember my login?
+                    </label>
+                </div>
+            </div>
+        }*@
+                    <div class="input-group no-border form-control-lg">
+                        <button class="btn btn-info  btn-lg btn-block" name="button" value="login">Login</button>
+                    </div>
+                </div>
+           
+
+            </div>
+
+        </form>
+    </div>
+}

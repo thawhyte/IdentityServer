@@ -1,0 +1,62 @@
+﻿@using Microsoft.AspNetCore.Hosting
+@model ErrorViewModel
+@inject IHostingEnvironment host
+@{
+    Layout = "_LoginLayout";
+}
+@{
+    var error = Model?.Error?.Error;
+    var errorDescription = host.IsDevelopment() ? Model?.Error?.ErrorDescription : null;
+    var request_id = Model?.Error?.RequestId;
+}
+
+<div class="content">
+    <div class="container">
+        <div class="col-md-4 ml-auto mr-auto">
+            <div class="card card-lock text-center">
+                <div class="card-header ">                   
+                    <div class="card-icon">
+                        <i class="now-ui-icons business_bank"></i>
+                    </div>
+                </div>
+
+                <div class="card-body ">
+
+                    <h4 class="card-title">Error Page</h4>
+
+                    <div class="col-sm-6">
+                        <div class="alert alert-danger">
+                            Sorry, there was an error
+
+                            @if (error != null)
+                            {
+                                <strong>
+                                    <em>
+                                        : @error
+                                    </em>
+                                </strong>
+
+                                if (errorDescription != null)
+                                {
+                                    <div>@errorDescription</div>
+                                }
+                            }
+                        </div>
+                        @if (request_id != null)
+                        {
+                            <div class="request-id">Request Id: @request_id</div>
+                        }
+                    </div>
+
+
+
+                </div>
+
+                <div class="card-footer ">
+                    <a href="https://localhost:443" class="btn btn-primary btn-round btn-lg">Go Home!</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

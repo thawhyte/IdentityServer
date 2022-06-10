@@ -1,0 +1,68 @@
+﻿
+
+<div class="card">
+    <div class="card-header ">
+        <h4 class="card-title text-center"> <small class="description">User Administration</small></h4>
+    </div>
+
+    <div class="card-body">
+        <div id="customs-toolbar">
+
+            <div class="row mt-4 justify-content-between">
+
+                <div class="col">
+                    <button class="btn btn-info btn-wd pull-right" type="button"
+                            id="btnAddUnlock">
+                        Unlock
+                    </button>
+                    <button class="btn btn-info btn-wd pull-right" type="button"
+                            id="btnAddlock">
+                        Lock
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        <table id="userTable" data-toggle="table" class="data-table"
+               data-url="@Url.Action("listUserManagement","Administration")"
+               data-search="true"
+               data-show-export="true"
+               data-single-select="true"
+               data-minimum-count-columns="2"
+               data-pagination="true"
+               data-page-list="[10, 25, 50, 100, ALL]"
+               data-toolbar="#customs-toolbar"
+               data-mobile-responsive="true"
+               data-show-refresh="true"
+               data-show-toggle="true"
+               data-show-columns="true"
+               data-detail-formatter="detailFormatter"
+               data-buttons-class="danger">
+            <thead>
+                <tr>
+                    <th data-field="state" data-checkbox="true"></th>
+                    <th data-field="staffName">Username</th>
+                    <th data-field="amount" data-formatter="dateFormatter" data-visible="false">Last Activity Date</th>
+                    <th data-field="status">Status</th>
+                    <th data-field="locked">Locked Status</th>
+
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+
+
+@section Scripts {
+
+    <script src="~/js/useManager.js"></script>
+
+}
+
+
+
+
+
+
+
+

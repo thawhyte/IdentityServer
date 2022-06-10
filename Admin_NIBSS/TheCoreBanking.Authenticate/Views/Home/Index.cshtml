@@ -1,0 +1,246 @@
+﻿<link href="~/css/chatbox.css" rel="stylesheet" />
+@using System.Globalization
+@using Microsoft.AspNetCore.Http.Features
+@using Microsoft.AspNetCore.Localization
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+
+<div class="content">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6 ml-auto mr-auto text-center">
+                <h2 class="title">@Localizer["Enterprise Resource Application 2.0"]</h2>
+                <h5 class="description">@Localizer["Limitless Resources Experience."]</h5>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="card card-pricing">
+
+                    <h6 class="card-category"><b>@Localizer["Approval Module"]</b></h6>
+
+
+                    <div class="card-body">
+
+                        <div class="card-icon">
+                            @*<i class="now-ui-icons business_bank"></i>*@
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <ul>
+                            <li>@Localizer["Setup Approval Workflow"]</li>
+                            <li>@Localizer["Approval Workflow Management"]</li>
+                        </ul>
+                    </div>
+
+                    <div class="card-footer">
+                        <a href="https://nibsserpworkflow.nibss-plc.com.ng" class="btn btn-default btn-twitter">@Localizer["Approval Module"]</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+
+                <div class="card card-pricing ">
+
+                    <h6 class="card-category">
+                        <b> @Localizer["Expense Management"]</b>
+                    </h6>
+                    <div class="card-body">
+                        <div class="card-icon icon-primary ">
+                            @*<i class="now-ui-icons users_circle-08"></i>*@
+                            <i class="fas fa-users"></i>
+                        </div>
+
+                        <ul>
+                            <li>@Localizer["Expense Managements"]</li>
+                            <li>@Localizer["Maintain Expense Managements"]</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="card-footer">
+                        <a href="https://nibsserpexpense.nibss-plc.com.ng" class="btn btn-default btn-primary">@Localizer["Expense Management"]</a>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card card-pricing">
+
+                    <h6 class="card-category"><b>@Localizer["Finance"]</b></h6>
+                    <div class="card-body">
+                        <div class="card-icon icon-success ">
+                            <i class="now-ui-icons media-2_sound-wave"></i>
+                        </div>
+
+                        <ul>
+                            <li>@Localizer["Bank account setup"]</li>
+                            <li>@Localizer["Ledger maintenance"]</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="card-footer">
+                        <a href="https://erp.nibss-plc.com.ng/finances" class="btn btn-default btn-success">@Localizer["Setup Ledger"]</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="col-lg-3 col-md-6">
+
+                <div class="card card-pricing">
+                    <h6 class="card-category"><b>@Localizer["Vendor Management"]</b></h6>
+                    <div class="card-body">
+
+                        <div class="card-icon icon-danger ">
+                            @*<i class="now-ui-icons education_atom"></i>*@
+                            <i class="fab fa-gg-circle"></i>
+                        </div>
+
+                        <ul>
+                            <li>@Localizer["Complete vendor managemenet"]</li>
+                            <li>@Localizer["Asset portfolio"]</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="card-footer">
+                        <a href="https://nibsserpvendor.nibss-plc.com.ng" class="btn btn-default btn-danger">@Localizer["Process Vendor Management"]</a>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-lg-3 col-md-6">
+
+                <div class="card card-pricing">
+                    <h6 class="card-category"><b>@Localizer["Fixed Asset"]</b></h6>
+                    <div class="card-body">
+
+                        <div class="card-icon icon-danger ">
+                            <i class="now-ui-icons business_briefcase-24"></i>
+                        </div>
+
+                        <ul>
+                            <li>@Localizer["Fixed Asset Operations"]</li>
+                            <li>@Localizer["Other Operation"]</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="card-footer">
+                        <a href="https://nibsserpfixedasset.nibss-plc.com.ng" class="btn btn-default btn-github">@Localizer["Start Fixed Asset"]</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+
+                <div class="card card-pricing">
+                    <h6 class="card-category"><b>@Localizer["Document Management"]</b> </h6>
+                    <div class="card-body">
+
+                        <div class="card-icon icon-white ">
+                            @*<i class="now-ui-icons ui-1_check"></i>*@
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+
+                        <ul>
+                            <li>@Localizer["Document"]</li>
+                            <li>@Localizer["Document Management"]</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="card-footer">
+                        <a href="https://nibsserpdoc.nibss-plc.com.ng" class="btn btn-default btn-danger">@Localizer["Document Managements"]</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="card card-pricing">
+                    <h6 class="card-category"><b> @Localizer["Inventory"] </b> </h6>
+                    <div class="card-body">
+
+                        <div class="card-icon icon-danger ">
+                            @*<i class="now-ui-icons files_single-copy-04"></i>*@
+                            <i class="fas fa-signal"></i>
+                        </div>
+
+                        <ul>
+                            <li>@Localizer["Inventory"]</li>
+                            <li>@Localizer["View Inventory"]</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="card-footer">
+                        <a href="https://nibsserpinventory.nibss-plc.com.ng" class="btn btn-default btn-success">@Localizer["Inventory"]</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="card card-pricing">
+                    <h6 class="card-category"><b>@Localizer["Budget"]</b></h6>
+                    <div class="card-body">
+
+                        <div class="card-icon icon-danger ">
+                            <i class="now-ui-icons business_briefcase-24"></i>
+                        </div>
+
+                        <ul>
+                            <li>@Localizer["Budget operations"]</li>
+                            <li>@Localizer["Other Operation"]</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="card-footer">
+                         
+                        <a href="https://budget.nibss-plc.com.ng/#/login" class="btn btn-default btn-github">@Localizer["Start Operation"]</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+
+                <div class="card card-pricing">
+                    <h6 class="card-category"><b>@Localizer["Procurement"]</b> </h6>
+                    <div class="card-body">
+
+                        <div class="card-icon icon-white ">
+                            @*<i class="now-ui-icons ui-1_check"></i>*@
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+
+                        <ul>
+                            <li>@Localizer["Procurement"]</li>
+                            <li>@Localizer["Procurement processing"]</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="card-footer">
+                        <a href="https://nibsserpproc.nibss-plc.com.ng" class="btn btn-default btn-danger">@Localizer["Procurement Operations"]</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<script src="~/lib/signalr/signalr.js"></script>
+@section scripts{
+    <script src="~/js/background.js"></script>
+    <script src="~/js/chat.js"></script>
+}

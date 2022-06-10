@@ -1,0 +1,114 @@
+﻿@model TheCoreBanking.Authenticate.Data.Model.TblIndustry
+
+<div class="card card-plain">
+    <div class="card-body">
+        <ul class="nav nav-pills nav-pills-danger justify-content-center" role="tablist">
+            <li class="nav-item justify-content-center">
+                <a class="nav-link active" data-toggle="tab" href="#addbankingindustry" role="tablist">
+                    <i class="now-ui-icons business_bank"></i>
+                    Industry
+                </a>
+            </li>
+            <li class="nav-item justify-content-center">
+                <a class="nav-link" data-toggle="tab" href="#addbankingsector" role="tablist">
+                    <i class="now-ui-icons business_badge"></i>
+                    Sector
+                </a>
+            </li>
+        </ul>
+        <div class="tab-content tab-space ">
+            <div class="tab-pane active" id="addbankingindustry">
+                <div id="AddNewIndustry" class="modal fade" role="dialog" aria-hidden="true" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="card-title text-primary font-weight-bold w-100 mb-3">
+                                    <span id="industrSecTitle">New</span> Industry
+                                </h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <i class="now-ui-icons ui-1_simple-remove"></i>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form id="frmIndustrySec">
+                                    <input type="hidden" name="industryid" id="industryid" />
+
+                                    <div class="row mb-2 required">
+                                        <label class="col-md-4 col-form-label">Sector Name</label>
+                                        <div class="col-md-8">
+                                            <div class="form-group">
+                                                <select name="sectorid" required id="sectorid"
+                                                        class="form-control">
+                                                    <option></option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-2 required">
+                                        <label class="col-md-4 col-form-label">Industry Name</label>
+                                        <div class="col-md-8">
+                                            <div class="form-group">
+                                                <input name="name" required id="name"
+                                                       type="text" class="form-control" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mt-4 justify-content-between">
+                                        <div class="col">
+                                            <button class="btn btn-danger btn-wd pull-left" type="reset">Clear</button>
+                                        </div>
+                                        <div class="col">
+                                            <button class="btn btn-danger btn-wd pull-right" type="button"
+                                                    id="btnAddIndustry" onclick="AddIndustrySec()">
+                                                Save Record
+                                            </button>
+                                            <button class="btn btn-danger btn-wd pull-right" type="button"
+                                                    id="btnIndustryUpdate" onclick="updateIndustrySec()">
+                                                Update Record
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Industry-toolbar">
+                    <button class="btn btn-danger" id="btnAddIndustrySec"
+                            onclick="openIndustrySecModal()">
+                        <i class="now-ui-icons ui-1_simple-add"></i>
+                        Add Industry
+                    </button>
+                </div>
+                <table id="industrySeTable" data-toggle="table"
+                       data-url="./Setup/ListOfIndustry"
+                       data-search="true" class="data-table"
+                       data-toolbar="#Industry-toolbar"
+                       data-search-align="right"
+                       data-show-pagination-switch="true"
+                        data-page-list="[5,10,25,50,100,150,200,250,300]"
+                          data-page-size="15" data-pagination="true"
+                       data-mobile-responsive="true"
+                       data-show-refresh="true"
+                       data-show-toggle="true"
+                       data-buttons-class="danger">
+                    <thead>
+                        <tr>
+                            <th data-field="name" data-sortable="true">Industry Name</th>
+                            <th data-field="sector.name">Sector</th>                          
+                            <th data-events="industryEvents" data-formatter="editFormatter"
+                                data-align="center" data-width="5%"></th>
+                            <th data-events="industryEvents" data-formatter="deleteFormatter"
+                                data-align="center" data-width="5%"></th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div class="tab-pane" id="addbankingsector">
+                @Html.Partial("_AddSector");
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,222 @@
+﻿<div class="card">
+    <div class="card-body">
+        <div class="card card-plain">
+            <div class="card-header text-center">
+                <h4 class="card-title">HOLIDAY SETUP</h4>
+            </div>
+            <div class="card-body">
+                <form id="Holiday-SetUp-form">
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            Holiday Date
+                            <input id="txtdate" name="txtdate" class="form-control datetimepicker"required />
+                        </div>
+                        <div class="form-group col-md-6" required>
+                            Holiday Type
+                            <select class="form-control" name="holtype"
+                                    required id="holtype">
+                                <option value="Select Holiday Type">Select Holiday Type</option>
+                                <option value="Weekend">Weekend</option>
+                                <option value="Public Holiday">Public Holiday</option>
+                            </select>
+
+                        </div>
+                       
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-12">
+                            Description
+                            <textarea id="txtdecription" class="form-control" rows="5" name="txtdescription" placeholder="Enter your Description" required></textarea>
+                        </div>
+                    </div>
+                        <div class="card-footer text-right">
+                            <div class="row mt-4 justify-content-between btn-group" role="group">
+                                <div class="col">
+                                    <button class="btn btn-info btn-wd pull-left" type="submit" id="txtsave">
+                                        Save Holiday
+                                    </button>
+                                </div>
+                                <div class="col">
+                                    <button class="btn btn-info btn-wd pull-right" type="button" data-toggle="modal" id="btnmodal" name="btnmodal" onclick="openModal()"
+                                            data-target="#btnDeclareAllWeekend">
+                                        Declare All Weekend
+                                    </button>
+                                </div>
+                                <div class="col">
+                                    <button class="btn btn-info btn-wd pull-right" id="txtundeclare"
+                                            type="button">
+                                        UnDeclare All Weekend
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                </form>
+                <table id="data-table" data-click-to-select="false"
+                       data-url="@Url.Action("LoadHoliday","HolidaySetUp")"
+                       data-search="true" class="data-table"
+                       data-toolbar="#custom-toolbar"
+                       data-search-align="right"
+                       data-detail-formatter="utilities.holsDetailFormatter"
+                       data-show-pagination-switch="true" data-checkbox-header="false"
+                       data-mobile-responsive="true" data-toggle="table"
+                       data-show-refresh="true" data-pagination="true"
+                       data-show-toggle="true" data-unique-id="id"
+                       data-buttons-class="danger">
+                    <thead>
+                        <tr>
+                            <th data-field="id" data-align="right"
+                                data-halign="left" data-visible="false">
+                                ID
+                            </th>
+                            <th data-field="date" data-sortable="true"
+                                data-formatter="utilities.dateFormatter">Date</th>
+                            <th data-field="description" data-align="right"
+                                data-halign="left">
+                                Description
+                            </th>
+                            <th data-field="holidayType" data-align="right"
+                                data-halign="left">
+                                Holiday Type
+                            </th>
+                            <th data-field="" data-align="left" data-width="-5%" data-formatter="utilities.editholsFormatter"></th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="btnDeclareAllWeekend" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" id="btnmodalx" name="btnmodalx">&times;</button>
+                <h4 class="modal-title">Declare All Weekend</h4>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col card card-plain">
+                            <form id="Declare-StartDate-form">
+                                <div class="row mb-2 required">
+                                    <label class="col-md-3 col-form-label">Select Start Date</label>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input id="txtdeclaredate" name="txtdeclaredate" class="form-control datetimepicker pull-left" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <input type="hidden" id="declareId" name="declareId" />
+                                </div>
+                                <div class="card-footer text-right">
+                                
+                                        <button class="btn btn-danger btn-wd " type="button" id="btnclear"
+                                                onclick="clear()">
+                                            Clear
+                                        </button>
+                                    
+                                        <button class="btn btn-info btn-wd " id="btndeclaresave"
+                                                type="button">
+                                            Save Date
+                                        </button>
+                                    
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<div id="editholdaysetup" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Edit</h4>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col card card-plain">
+                            <form id="Edit-Callmemo-form">
+                                <div class="row mb-2 required">
+                                    <label class="col-md-3 col-form-label">Holiday Date</label>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input id="txtdatedit" name="txtdatedit" class="form-control datetimepicker pull-left" readonly />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <input type="hidden" id="holId" name="holId" />
+                                </div>
+                                <div class="row mb-2 required">
+                                    <label class="col-md-3 col-form-label">Description</label>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <textarea id="txtdecriptionedit" class="form-control" rows="5" name="txtdescriptionedit" placeholder="Enter your Description"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2 required">
+                                    <label class="col-md-3 col-form-label">Holiday Type</label>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <select class="form-control" name="holtypedit"
+                                                    id="holtypedit" required disabled>
+                                                <option value="Weekend">Weekend</option>
+                                                <option value="Public Holiday">Public Holiday</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer text-right">
+                           
+                                        <button class="btn btn-danger btn-wd " type="button"
+                                                data-dismiss="modal">
+                                            Close
+                                        </button>
+                                   
+                                        <button class="btn btn-info btn-wd " id="btnedithols"
+                                                type="button">
+                                            Save Edit
+                                        </button>
+                                   
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    <environment include="Development">
+        <script src="~/js/holidaysetup.js"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="~/js/holidaysetup.min.js"></script>
+    </environment>
+}
+

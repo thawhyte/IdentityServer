@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\FINTRAK-BUDGET\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\FINTRAK-BUDGET\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.deps.json
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.json
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.dev.json
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csprojAssemblyReference.cache
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfoInputs.cache
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfo.cs
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.CoreCompileInputs.cache
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.genruntimeconfig.cache
+C:\Users\FINTRAK\source\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.deps.json
+C:\Users\FINTRAK\source\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.json
+C:\Users\FINTRAK\source\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.dev.json
+C:\Users\FINTRAK\source\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Users\FINTRAK\source\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Users\FINTRAK\source\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csprojAssemblyReference.cache
+C:\Users\FINTRAK\source\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfoInputs.cache
+C:\Users\FINTRAK\source\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfo.cs
+C:\Users\FINTRAK\source\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.CoreCompileInputs.cache
+C:\Users\FINTRAK\source\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Users\FINTRAK\source\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Users\FINTRAK\source\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.genruntimeconfig.cache
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.deps.json
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.json
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.dev.json
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csprojAssemblyReference.cache
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfoInputs.cache
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfo.cs
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.CoreCompileInputs.cache
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Users\Fintrak\Documents\Visual Studio 2019\Projects\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.genruntimeconfig.cache
+E:\Documents\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.deps.json
+E:\Documents\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.json
+E:\Documents\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.dev.json
+E:\Documents\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+E:\Documents\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+E:\Documents\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csprojAssemblyReference.cache
+E:\Documents\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfoInputs.cache
+E:\Documents\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfo.cs
+E:\Documents\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.CoreCompileInputs.cache
+E:\Documents\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+E:\Documents\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+E:\Documents\MSSQL\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.genruntimeconfig.cache
+E:\Downloads\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.deps.json
+E:\Downloads\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.json
+E:\Downloads\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.dev.json
+E:\Downloads\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+E:\Downloads\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+E:\Downloads\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.AssemblyReference.cache
+E:\Downloads\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfoInputs.cache
+E:\Downloads\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfo.cs
+E:\Downloads\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.CoreCompileInputs.cache
+E:\Downloads\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+E:\Downloads\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+E:\Downloads\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.genruntimeconfig.cache
+C:\Users\FINTRAK-MMBS\Downloads\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.deps.json
+C:\Users\FINTRAK-MMBS\Downloads\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.json
+C:\Users\FINTRAK-MMBS\Downloads\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.dev.json
+C:\Users\FINTRAK-MMBS\Downloads\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Users\FINTRAK-MMBS\Downloads\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Users\FINTRAK-MMBS\Downloads\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfoInputs.cache
+C:\Users\FINTRAK-MMBS\Downloads\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfo.cs
+C:\Users\FINTRAK-MMBS\Downloads\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.CoreCompileInputs.cache
+C:\Users\FINTRAK-MMBS\Downloads\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Users\FINTRAK-MMBS\Downloads\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Users\FINTRAK-MMBS\Downloads\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.genruntimeconfig.cache
+E:\Documents\MSSQL\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.deps.json
+E:\Documents\MSSQL\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.json
+E:\Documents\MSSQL\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.dev.json
+E:\Documents\MSSQL\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+E:\Documents\MSSQL\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+E:\Documents\MSSQL\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfoInputs.cache
+E:\Documents\MSSQL\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfo.cs
+E:\Documents\MSSQL\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.CoreCompileInputs.cache
+E:\Documents\MSSQL\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+E:\Documents\MSSQL\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+E:\Documents\MSSQL\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.genruntimeconfig.cache
+E:\Documents\MSSQL\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csprojAssemblyReference.cache
+E:\Downloads\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.deps.json
+E:\Documents\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.json
+E:\Documents\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.dev.json
+E:\Documents\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+E:\Documents\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+E:\Documents\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csprojAssemblyReference.cache
+E:\Documents\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfoInputs.cache
+E:\Documents\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfo.cs
+E:\Documents\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.CoreCompileInputs.cache
+E:\Documents\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+E:\Documents\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+E:\Documents\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.genruntimeconfig.cache
+C:\Users\WSPETER\source\repos\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.deps.json
+C:\Users\WSPETER\source\repos\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.json
+C:\Users\WSPETER\source\repos\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.dev.json
+C:\Users\WSPETER\source\repos\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Users\WSPETER\source\repos\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Users\WSPETER\source\repos\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfoInputs.cache
+C:\Users\WSPETER\source\repos\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfo.cs
+C:\Users\WSPETER\source\repos\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.CoreCompileInputs.cache
+C:\Users\WSPETER\source\repos\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Users\WSPETER\source\repos\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Users\WSPETER\source\repos\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.genruntimeconfig.cache
+C:\Workspace\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.deps.json
+C:\Workspace\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.json
+C:\Workspace\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.dev.json
+C:\Workspace\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Workspace\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Workspace\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.AssemblyReference.cache
+C:\Workspace\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfoInputs.cache
+C:\Workspace\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfo.cs
+C:\Workspace\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.CoreCompileInputs.cache
+C:\Workspace\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Workspace\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Workspace\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.genruntimeconfig.cache
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.deps.json
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.json
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.dev.json
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfoInputs.cache
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfo.cs
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.CoreCompileInputs.cache
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.genruntimeconfig.cache
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.AssemblyReference.cache
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.deps.json
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.json
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.dev.json
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfoInputs.cache
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfo.cs
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.CoreCompileInputs.cache
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.genruntimeconfig.cache
+C:\Workspace\Mr Peter\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.deps.json
+C:\Workspace\Mr Peter\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.json
+C:\Workspace\Mr Peter\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.dev.json
+C:\Workspace\Mr Peter\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Workspace\Mr Peter\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Workspace\Mr Peter\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.AssemblyReference.cache
+C:\Workspace\Mr Peter\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\Mr Peter\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfoInputs.cache
+C:\Workspace\Mr Peter\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfo.cs
+C:\Workspace\Mr Peter\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.CoreCompileInputs.cache
+C:\Workspace\Mr Peter\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Workspace\Mr Peter\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Workspace\Mr Peter\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.genruntimeconfig.cache
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.deps.json
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.json
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.dev.json
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfoInputs.cache
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfo.cs
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.CoreCompileInputs.cache
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.genruntimeconfig.cache
+C:\Users\wspeter\Desktop\Today\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.AssemblyReference.cache
+C:\Workspace\ERP\ERP NIBSS\New\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.deps.json
+C:\Workspace\ERP\ERP NIBSS\New\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.json
+C:\Workspace\ERP\ERP NIBSS\New\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.dev.json
+C:\Workspace\ERP\ERP NIBSS\New\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Workspace\ERP\ERP NIBSS\New\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Workspace\ERP\ERP NIBSS\New\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.AssemblyReference.cache
+C:\Workspace\ERP\ERP NIBSS\New\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\ERP\ERP NIBSS\New\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfoInputs.cache
+C:\Workspace\ERP\ERP NIBSS\New\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfo.cs
+C:\Workspace\ERP\ERP NIBSS\New\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.CoreCompileInputs.cache
+C:\Workspace\ERP\ERP NIBSS\New\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Workspace\ERP\ERP NIBSS\New\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Workspace\ERP\ERP NIBSS\New\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.genruntimeconfig.cache
+C:\Workspace\ERP\ERP NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.deps.json
+C:\Workspace\ERP\ERP NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.json
+C:\Workspace\ERP\ERP NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.runtimeconfig.dev.json
+C:\Workspace\ERP\ERP NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Workspace\ERP\ERP NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\bin\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Workspace\ERP\ERP NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\ERP\ERP NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfoInputs.cache
+C:\Workspace\ERP\ERP NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.AssemblyInfo.cs
+C:\Workspace\ERP\ERP NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.CoreCompileInputs.cache
+C:\Workspace\ERP\ERP NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.dll
+C:\Workspace\ERP\ERP NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.pdb
+C:\Workspace\ERP\ERP NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.genruntimeconfig.cache
+C:\Workspace\ERP\ERP NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\Admin_NIBSS\TheCoreBanking.Authenticate.Data\obj\Debug\netcoreapp3.1\TheCoreBanking.Authenticate.Data.csproj.AssemblyReference.cache

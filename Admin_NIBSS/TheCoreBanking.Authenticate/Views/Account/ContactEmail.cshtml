@@ -1,0 +1,31 @@
+﻿@model TheCoreBanking.Authenticate.Services.IEmailService
+
+
+<div class="card">
+    <div class="card-header">
+        <h4 class="card-title">Contact Admin</h4>
+    </div>
+    <div class="col-md-4">
+        <form asp-route="SendEmailAsync">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label>Sender Email</label>
+                <div class="form-group">
+                    <input type="email" class="form-control" />
+                </div>
+                <label>Subject</label>
+                <div class="form-group">
+                    <input type="text" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea class="form-control rounded-0" row="20"></textarea>
+                </div>
+                <input type="submit" value="SendEmail" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
